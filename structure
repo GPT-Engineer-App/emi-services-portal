@@ -1,0 +1,16 @@
+CREATE DATABASE ShrutijaEMI;
+
+USE ShrutijaEMI;
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(255),
+    selling_price DECIMAL(10, 2),
+    finance_options VARCHAR(255),
+    down_payment DECIMAL(10, 2),
+    interest_rate DECIMAL(5, 2),
+    total_finance_amount DECIMAL(10, 2),
+    number_of_installments INT,
+    installment_amount DECIMAL(10, 2),
+    product_description TEXT
+);

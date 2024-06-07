@@ -1,0 +1,21 @@
+ShrutijaEMI
+├── build
+├── src
+│   ├── java
+│   │   └── com
+│   │       └── shrutija
+│   │           ├── AddProductServlet.java
+│   │           ├── CustomerListServlet.java
+│   │           ├── GenerateReportServlet.java
+│   │           ├── TodaySalesServlet.java
+│   │           └── AdminProfileServlet.java
+│   └── webapp
+│       ├── WEB-INF
+│       │   └── web.xml
+│       ├── addProduct.jsp
+│       ├── customerList.jsp
+│       ├── generateReport.jsp
+│       ├── index.jsp
+│       ├── todaySales.jsp
+│       └── adminProfile.jsp
+└── nbproject
